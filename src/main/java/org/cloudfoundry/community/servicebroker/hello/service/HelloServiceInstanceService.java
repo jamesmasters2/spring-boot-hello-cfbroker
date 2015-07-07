@@ -6,7 +6,7 @@ import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceExistsE
 import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceUpdateNotSupportedException;
 import org.cloudfoundry.community.servicebroker.model.ServiceDefinition;
 import org.cloudfoundry.community.servicebroker.model.ServiceInstance;
-import org.cloudfoundry.community.servicebroker.hello.repository.MongoServiceInstanceRepository;
+//import org.cloudfoundry.community.servicebroker.hello.repository.MongoServiceInstanceRepository;
 import org.cloudfoundry.community.servicebroker.service.ServiceInstanceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,13 +16,13 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class HelloServiceInstanceService implements ServiceInstanceService {
-    private MongoServiceInstanceRepository repository;
+    //private MongoServiceInstanceRepository repository;
     private HelloAdminService hello;
     @Autowired
-    public HelloServiceInstanceService(HelloAdminService hello, MongoServiceInstanceRepository repository) {
+    public HelloServiceInstanceService(HelloAdminService hello) {
         System.out.println("In HelloServiceInstanceService");
         this.hello = hello;
-        this.repository = repository;
+       // this.repository = repository;
     }
 
     @Override
@@ -35,7 +35,7 @@ public class HelloServiceInstanceService implements ServiceInstanceService {
     }
     @Override
     public ServiceInstance getServiceInstance(String id) {
-        return repository.findOne(id);
+        return null;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.servicebroker.hello.repository;
+/**package org.cloudfoundry.community.servicebroker.hello.repository;
 
 import org.cloudfoundry.community.servicebroker.model.ServiceInstance;
 import org.springframework.data.mongodb.repository.MongoRepository;
@@ -8,7 +8,8 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  * 
  * @author sgreenberg@gopivotal.com
  *
- */
+
 public interface MongoServiceInstanceRepository extends MongoRepository<ServiceInstance, String> {
 
 }
+*/
