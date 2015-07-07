@@ -4,17 +4,14 @@ import java.net.UnknownHostException;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
-
 import com.mongodb.MongoClient;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "org.cloudfoundry.community.servicebroker.hello.repository")
-public class MongoConfig {
+public class HelloConfig {
 
-	@Bean
+/**	@Bean
 	public MongoClient mongoClient() throws UnknownHostException {
 		return new MongoClient();
 	}
-	
+	*/
 }
