@@ -1,18 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.service;
-
-import org.cloudfoundry.community.servicebroker.exception.ServiceBrokerException;
-import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceDoesNotExistException;
-import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceExistsException;
-import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceUpdateNotSupportedException;
-import org.cloudfoundry.community.servicebroker.model.ServiceDefinition;
-import org.cloudfoundry.community.servicebroker.model.ServiceInstance;
-import org.cloudfoundry.community.servicebroker.mongodb.exception.MongoServiceException;
-import org.cloudfoundry.community.servicebroker.mongodb.repository.MongoServiceInstanceRepository;
-import org.cloudfoundry.community.servicebroker.service.ServiceInstanceService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import com.mongodb.DB;
+package org.cloudfoundry.community.servicebroker.hello.service;
 
 /**
  * Mongo impl to manage service instances.  Creating a service does the following:

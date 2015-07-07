@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.config;
+package org.cloudfoundry.community.servicebroker.hello.config;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -28,7 +28,7 @@ public class CatalogConfig {
 									"Default Mongo Plan", 
 									"This is a default mongo plan.  All services are created equally.",
 									getPlanMetadata())),
-					Arrays.asList("mongodb", "document"),
+					Arrays.asList("hello", "document"),
 					getServiceDefinitionMetadata(),
 					null,
 					null)));
@@ -39,11 +39,11 @@ public class CatalogConfig {
 	private Map<String,Object> getServiceDefinitionMetadata() {
 		Map<String,Object> sdMetadata = new HashMap<String,Object>();
 		sdMetadata.put("displayName", "MongoDB");
-		sdMetadata.put("imageUrl","http://info.mongodb.com/rs/mongodb/images/MongoDB_Logo_Full.png");
+		sdMetadata.put("imageUrl","http://info.hello.com/rs/hello/images/MongoDB_Logo_Full.png");
 		sdMetadata.put("longDescription","MongodDB Service");
 		sdMetadata.put("providerDisplayName","Pivotal");
-		sdMetadata.put("documentationUrl","http://www.mongodb.org");
-		sdMetadata.put("supportUrl","http://www.mongodb.org");
+		sdMetadata.put("documentationUrl","http://www.hello.org");
+		sdMetadata.put("supportUrl","http://www.hello.org");
 		return sdMetadata;
 	}
 	

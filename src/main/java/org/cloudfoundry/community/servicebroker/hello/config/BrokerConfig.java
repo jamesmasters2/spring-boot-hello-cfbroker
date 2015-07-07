@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.config;
+package org.cloudfoundry.community.servicebroker.hello.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

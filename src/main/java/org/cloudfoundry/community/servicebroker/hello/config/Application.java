@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.config;
+package org.cloudfoundry.community.servicebroker.hello.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

@@ -1,16 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.service;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import org.cloudfoundry.community.servicebroker.exception.ServiceBrokerException;
-import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceBindingExistsException;
-import org.cloudfoundry.community.servicebroker.model.ServiceInstance;
-import org.cloudfoundry.community.servicebroker.model.ServiceInstanceBinding;
-import org.cloudfoundry.community.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepository;
-import org.cloudfoundry.community.servicebroker.service.ServiceInstanceBindingService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+package org.cloudfoundry.community.servicebroker.hello.service;
 
 /**
  * Mongo impl to bind services.  Binding a service does the following:

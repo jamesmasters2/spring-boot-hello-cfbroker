@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.service;
+package org.cloudfoundry.community.servicebroker.hello.service;
 
 import org.springframework.stereotype.Service;
 

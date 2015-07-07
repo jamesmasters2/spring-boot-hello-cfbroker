@@ -1,21 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.service;
-
-import org.cloudfoundry.community.servicebroker.mongodb.exception.MongoServiceException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import com.mongodb.BasicDBList;
-import com.mongodb.BasicDBObject;
-import com.mongodb.BasicDBObjectBuilder;
-import com.mongodb.CommandResult;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.DBObject;
-import com.mongodb.MongoClient;
-import com.mongodb.MongoException;
-import com.mongodb.ServerAddress;
+package org.cloudfoundry.community.servicebroker.hello.service;
 
 /**
  * Utility class for manipulating a Mongo database.
@@ -108,7 +91,7 @@ public class MongoAdminService {
 	
 	public String getConnectionString(String database, String username, String password) {
 		StringBuilder builder = new StringBuilder();
-		builder.append("mongodb://");
+		builder.append("hello://");
 		builder.append(username);
 		builder.append(":");
 		builder.append(password);

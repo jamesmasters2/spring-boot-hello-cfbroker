@@ -1,7 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.repository;
-
-import org.cloudfoundry.community.servicebroker.model.ServiceInstance;
-import org.springframework.data.mongodb.repository.MongoRepository;
+package org.cloudfoundry.community.servicebroker.hello.repository;
 
 /**
  * Repository for ServiceInstance objects

@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.config;
+package org.cloudfoundry.community.servicebroker.hello.config;
 
 import java.net.UnknownHostException;
 
@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import com.mongodb.MongoClient;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "org.cloudfoundry.community.servicebroker.mongodb.repository")
+@EnableMongoRepositories(basePackages = "org.cloudfoundry.community.servicebroker.hello.repository")
 public class MongoConfig {
 
 	@Bean

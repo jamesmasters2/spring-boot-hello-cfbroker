@@ -38,7 +38,7 @@ configurations {
 
 dependencies {
     compile("org.cloudfoundry:spring-boot-cf-service-broker:${springBootCfServiceBrokerVersion}")
-    compile("org.springframework.boot:spring-boot-starter-data-mongodb:${springBootVersion}") 
+    compile("org.springframework.boot:spring-boot-starter-data-hello:${springBootVersion}")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat:${springBootVersion}")
     testCompile("org.cloudfoundry:spring-boot-cf-service-broker-tests:${springBootCfServiceBrokerVersion}")
     testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")

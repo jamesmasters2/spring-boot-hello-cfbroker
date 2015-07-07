@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.service;
+package org.cloudfoundry.community.servicebroker.hello.service;
 
 import org.cloudfoundry.community.servicebroker.exception.ServiceBrokerException;
 import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceDoesNotExistException;
@@ -6,7 +6,7 @@ import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceExistsE
 import org.cloudfoundry.community.servicebroker.exception.ServiceInstanceUpdateNotSupportedException;
 import org.cloudfoundry.community.servicebroker.model.ServiceDefinition;
 import org.cloudfoundry.community.servicebroker.model.ServiceInstance;
-import org.cloudfoundry.community.servicebroker.mongodb.repository.MongoServiceInstanceRepository;
+import org.cloudfoundry.community.servicebroker.hello.repository.MongoServiceInstanceRepository;
 import org.cloudfoundry.community.servicebroker.service.ServiceInstanceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

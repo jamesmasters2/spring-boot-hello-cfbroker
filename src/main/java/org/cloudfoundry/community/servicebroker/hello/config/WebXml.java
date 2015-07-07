@@ -1,4 +1,4 @@
-package org.cloudfoundry.community.servicebroker.mongodb.config;
+package org.cloudfoundry.community.servicebroker.hello.config;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
